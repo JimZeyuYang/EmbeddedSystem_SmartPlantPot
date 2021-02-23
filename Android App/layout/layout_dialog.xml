@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/plant_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <NumberPicker
+        android:id="@+id/plant_picker"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/distance_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="0dp"
+        android:text="Backward Distance" />
+
+    <NumberPicker
+        android:id="@+id/distance_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="250dp"
+        />
+
+
+    <Switch
+        android:id="@+id/sun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="            Avoid Direct Sunlight                    " />
+
+    <Switch
+        android:id="@+id/wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="            Avoid Heavy Rain                          " />
+
+    <Switch
+        android:id="@+id/rain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="            Avoid Strong Wind                        " />
+
+
+    <TextView
+        android:id="@+id/water_freq_name"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="310dp"
+        android:text="Water Frequency: once every" />
+
+    <NumberPicker
+        android:id="@+id/water_freq_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="20dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/water_amt_name"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="310dp"
+        android:text="Water Amount:        ml" />
+
+    <NumberPicker
+        android:id="@+id/water_amt_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="120dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/rotate_name"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="310dp"
+        android:text="Rotate Frequency: once every    hour" />
+
+    <NumberPicker
+        android:id="@+id/rotate_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="220dp"
+
+        />
+
+
+</RelativeLayout>
