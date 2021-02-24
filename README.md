@@ -4,4 +4,4 @@ Team ALG
 
 https://www.team-alg.com/
 
-![alt text](https://github.com/JimZeyuYang/EmbeddedSystem_SmartPlantPot/edit/main/pot2.jpg?raw=true)
+![alt text](https://github.com/JimZeyuYang/EmbeddedSystem_SmartPlantPot/main/pot2.jpg?raw=true)
